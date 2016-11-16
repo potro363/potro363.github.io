@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/08/2016, 10:59:26 PM
+    Author     : Christopher
+*/
+
+body {                 
+      background-color: #FFFFFF;
+      background: url('../Imagenes/LogoUDA.JPG');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      opacity: 0.9;
+}
+
+#container {
+      width: 900px;
+      margin: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: .9em; 
+}
+
+#banner {
+      display: inline-block;
+      padding: 5px;
+      background-color: #D5DBE1;
+      font-size: 1.1em;
+}
+
+
+#content {
+      padding: 10px 10px 10px 170px; /* TRBL; this keeps the text from flowing around the sidebar */
+      margin-left: 0px;
+      background-color: #EBEBEB; 
+}
+ 
+#nav {
+      float: left;
+      width: 150px;
+      margin: 0px;
+      padding: 5px;
+      background-color: gray;
+      font-size: .9em;
+}
+ 
+#nav a {
+      display: block; /* this makes the link look like a block element - we could give it margins, etc. */
+      text-decoration: none;
+      color: #FFFFFF;
+      background-color: gray;
+      margin: 0px;
+      padding: 5px;
+      width: 140px;
+}
+ 
+#nav a:hover {
+      background-color: #6699FF;
+}
+ 
+#urhere a, #urhere a:hover {
+      background-color: #6699FF;
+}
+ 
+#footer {
+      clear: both;
+      padding: 5px;
+      background-color: rgb(213, 219, 225);
+      font-size: .7em;
+      text-align: center;
+}  
+
+#footer ul li {
+    display:inline-block;
+}
